@@ -12,11 +12,12 @@ export default function Intro() {
           Discover and categorize movie plots with the power of AI. Input a title or summary, and get instant insights on genre, mood, and audience. Ready to explore?
         </p>
 
-        <Link href="/pages/index" className="w-full sm:w-auto">
-          <button className="mt-4 px-6 py-2 bg-pink-500 text-white rounded-full hover:bg-pink-600 transition-all">
-            🚀 Get Started
-          </button>
-        </Link>
+        <Link href="/start" className="w-full sm:w-auto">
+  <button className="mt-4 px-6 py-2 bg-pink-500 text-white rounded-full hover:bg-pink-600 transition-all">
+    🚀 Get Started
+  </button>
+</Link>
+
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
